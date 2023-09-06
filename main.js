@@ -1,8 +1,8 @@
 difference = 0;
 rightWristX = 0;
 leftWristX = 0;
-
-  function setup() {
+//crie a função setup
+  ??? {
   video = createCapture(VIDEO);
   video.size(550, 500);
 
@@ -13,7 +13,8 @@ leftWristX = 0;
   poseNet.on('pose', gotPoses);
 }
 
-function modelLoaded() {
+//crie a função modelLoaded
+  ??? {
   console.log('PoseNet Is Initialized!');
 }
 
